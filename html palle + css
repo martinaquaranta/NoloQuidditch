@@ -1,0 +1,134 @@
+<!DOCTTPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript"></script> <!-- da vedere-->
+    
+    <title>Nolo Quidditch</title>
+   
+   <style>
+    	td{text-align: center; border:solid;} 
+        h1{text-align:center; font-family: Apple Chancery; color:#FFFF66; ; font-size: 5em; font-weight: normal; font-style: italic; text-decoration: none !important; font-variant: small-caps;}
+        caption {font-family: calibri light; font-size: 2em;font-style: italic ;color: #FFFF66; text-align:center;}
+        body {background-image: url("https://i.pinimg.com/originals/08/42/38/084238e0033b6d5d2f6bd04a40f7b8b2.jpg?q=60");}
+        a {color:white;}
+        label {color: white; font-style:italic; font-size:12px; font-family: Calibri;}
+        thead {color:white; font-size: 17px;}
+        tbody {color:white; font-size:15px;}
+   </style>
+
+</head>
+<body>
+ 		<h1>nolo quidditch</h1>
+
+<label for="durata">Selezione la durata del noleggio,</label>
+		<label for="start">da:</label>
+    	<input type="date" id="start" name="nolo-start"
+       value="2021-07-22"
+       min="2018-01-01" max="2022-07-22">
+		<label for="end">a:</label>
+   		<input type="date" id="end" name="nolo-end"
+       value="2021-07-23"
+       min="2018-01-01" max="2022-07-23">
+
+<br><br><label for="tempo"> Imposta orario di inizio noleggio</label>
+		<input type="time" id="start" name="nolo-start"
+       value="10:00" min="10:00" max="16:00">
+
+<table>
+     <caption>
+         <p><b>I nostri prodotti</b></p>
+     </caption>
+    
+    <thead>
+     <tr>
+         <td><b>Nome</b></td>
+         <td><b>Prodotto</b></td>
+         <td><b>Descrizione</b></td>
+         <td><b>Prezzo per giornata</b></td>
+         <td><b>Seleziona</b></td>
+         <td><b>Altro</b></td>
+    </tr>
+    </thead>
+    
+    <tbody>
+     <tr>
+         <td>Nimbus 2000</td>
+         <td> <img src="data:image/jpeg;base64,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"> </td>
+         <td>La Nimbus 2000 è una scopa da corsa prodotta dalla Compagnia Scope da Corsa Nimbus. Ha un manico sottile di mogano, è molto resistente e ha un’aerodinamica eccellente. Veloce e scattante, è adatta per acrobazie aeree come gli avvitamenti o il giro della morte. Il suo punto di forza è la coda, costituita da rami perfettamente dritti e levigati che mantengono stabile l’assetto. Pur non trattandosi di un modello recente, la Nimbus 2000 viene ancora utilizzata nelle competizioni.<br><br></td>
+        <td>20 Galeoni</td>
+         <td><select name="quantity" id="bolide">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+          </select>
+ </tr>
+ <tr>
+        <td>Boccino d'Oro</td>
+        <td> <img width="200" src="data:image/jpeg;base64,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"></td>
+        <td>Il Boccino è piccolo, dorato e dotato di ali. Vola intorno al campo di Quidditch ad altissima velocità, a volte arrestandosi di colpo. Può inoltre cambiare direzione istantaneamente grazie alle articolazioni rotanti delle ali. È stregato per rimanere entro i confini del campo. I Boccini hanno una memoria tattile e ricordano chi è la prima persona che li ha toccati, in caso di disputa sul risultato.</td>
+           <td>15 galeoni</td>
+           <td><input type="checkbox" name="boccino" value="boccino d'oro" id="Boccino d'Oro"></td>
+ </tr>
+ <tr>
+        <td>Bolide</td>
+        <td><img width="170" src="https://harrypotterandother1.estranky.cz/img/picture/45/bludger-1-.gif"></td>
+        <td>Il Bolide è una delle palle usate nel Quidditch. È fatta di ferro ed è stregata per inseguire indiscriminatamente i giocatori di Quidditch. Il compito dei Battitori è di colpire i due Bolidi usati nella partita con delle mazze, in modo di proteggere i propri compagni di squadra e colpire invece gli avversari.</td>
+        <td>10 Galeoni</td>
+        <td><select name="quantity" id="bolide">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+           </select></td>
+          <td><select name="colour" id="bolide">
+    <option value="red bolide">Ferro Rosso</option>
+    <option value="blue bolide">Ferro Blu</option>
+         </select></td>
+ </tr>
+<tr>
+          <td>Pluffa</td>
+          <td><img width="200" src="http://digilander.libero.it/HarryPotterPage/Il%20Quidditch_file/image003.jpg"></td>
+          <td>È una palla rossa o blu di cuoio. Ha un diametro di circa dodici pollici. Costituisce il centro del gioco. I tre Cacciatori si passano la Pluffa e cercano con essa di fare goal negli anelli delle porte avversarie.</td>
+          <td>15 Galeoni</td>
+          <td><input type="checkbox" name="pluffa" value="pluffa" id="pluffa"></td>
+          <td><select name="colour" id="pluffa">
+    <option value="red pluffa">Cuoio Rosso</option>
+    <option value="blue pluffa">Cuoio Blu</option>
+        </select></td>
+</tr>
+<tr>
+        <td>Set Completo</td>
+        <td><img width="250" src="https://media.entertainmentearth.com/assets/images/31f622cc9ba5421d9f1d1c47e73e7da5lg.jpg"></td>
+        <td>Il Set dispone di tutti gli strumenti necessari per la partita di Quidditch: un boccino d'oro, due bolidi, una pluffa. è possibile scegliere il colore delle palle. Le scope e le mazze sono a parte.</td>
+        <td>40 Galeoni</td>
+        <td><input type="checkbox" name="set completo" value="set completo" id="set completo"></td>
+        <td><select name="colour" id="set completo">
+    <optgroup label="Seleziona il colore della Pluffa e dei Bolidi">
+    <option value="red cofanetto">Rosso</option>
+    <option value="blue cofanetto">Blu</option>
+        </optgroup></select></td>
+</tbody>
+<tfoot>
+
+</tfoot>
+
+</table>
+
+</body>
+
+</html>
